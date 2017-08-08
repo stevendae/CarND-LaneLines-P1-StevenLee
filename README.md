@@ -1,12 +1,20 @@
 # **Finding Lane Lines on the Road** 
 ---
 
-**Finding Lane Lines on the Road**
+**Project Description**
 
+In this project, I used computer vision techniques to identify the trajectory of dashed lane lines on images/videos of traffic roads. 
 The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
 
+* Make a pipeline that finds lane lines on the road
+* Write reflections in a written report
+
+
+The following libraries (included in environment.yml) were used to achieve the goals of this project.
+- Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
+- Matplotlib.image (Image loading, scaling, and display options)
+- NumPy (processing data in the form of arrays)
+- OpenCV (computer vision applications)
 
 [//]: # (Image References)
 
