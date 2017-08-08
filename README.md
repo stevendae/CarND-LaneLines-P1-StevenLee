@@ -9,13 +9,24 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Write reflections in a written report
 
-**Method**
+**Methods Used**
 
 The following libraries (included in environment.yml) were used to achieve the goals of this project.
 - Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
 - Matplotlib.image (Image loading, scaling, and display options)
 - NumPy (processing data in the form of arrays)
 - OpenCV (computer vision applications)
+
+The pipeline is first tested on static images then tested on videos of traffic roads. The test images are read in individually through a for loop and are processed to output the same image where the lane lines are marked. Image processing pipeline is as follows:
+
+- load in image (mpimg.imread)
+- convert to grayscale to work with contrast rather than colour (cv2.cvtColor)  
+- apply Gaussian Smoothing to remove noise (cv2.GaussianBlur)
+- apply Canny Edge Detection to identify when the gradient is above threshold and therefore identify edges of objects (cv2.Canny)
+- apply region of interest mask to confine only parts of the road to image (cv2.fillPoly, cv2.bitwise)
+- apply Hough Transform on edge detected image
+- draw lines to original image
+
 
 [//]: # (Image References)
 
