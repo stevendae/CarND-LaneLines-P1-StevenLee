@@ -3,24 +3,27 @@
 ## Objective 
 **Detect highway road lane lines in images and videos captured by a camera mounted in front dash of a vehicle**
 ## Abstract
-In the emerging technology of self-driving cars, cars must know how to operate by themselves without the decision making and control inputs of a driver or operator. This involves an 'understanding' of the nascent world around them, particulary in regards to the guidelines and constraints that govern civil societal driving behaviour. Each independent repository that begins with "CarND-" will investigate one component of the total self-driving car project. 
+In the emerging technology of self-driving cars, cars must know how to operate by themselves without the decision making and control inputs of a driver or operator. This involves an 'understanding' of the nascent world around them, particulary in regards to the guidelines and constraints that govern civil societal driving behaviour. The variables involved in this project are currently being studied and tested amongst top automotive manufacturers, other technology companies active in the space, and even among technology hobbyists. Once the advent of self-driving cars flourishes into our roads it will undoubtedly be a game changer for how we live. 
 
-In this project, computer vision techniques were used to identify the trajectory of dashed lane lines on images/videos of traffic roads. 
+Each independent repository that begins with "CarND-" will investigate one element of the total self-driving car project. 
+
+In this project, computer vision techniques were used to identify the trajectory of dashed lane lines on images/videos of highway traffic roads. 
 
 The goals / steps of this project are the following:
 
 * Make a pipeline that finds lane lines on the road
-* Write down reflections in report
+* Document reflections in report
 
-**Methods Used**
-
+**Python Version/Packages/Libraries Used**
+Python Version: Python 3.5.1
 The following libraries (included in environment.yml) were used to achieve the goals of this project.
 - Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
 - Matplotlib.image (Image loading, scaling, and display options)
 - NumPy (processing data in the form of arrays)
 - OpenCV (computer vision applications)
 
-The pipeline is first tested on static images then tested on videos of traffic roads. The test images are read in individually through a for loop and are processed to output the same image where the lane lines are marked. Image processing pipeline is as follows:
+**Method/Process**
+The pipeline is first tested on static images then tested on videos of traffic roads. The test images are read in individually and processed to overlay the lane line markers over the same image. Image processing pipeline is as follows:
 
 - load in image (mpimg.imread)
 - convert to grayscale to work with contrast rather than colour (cv2.cvtColor)  
