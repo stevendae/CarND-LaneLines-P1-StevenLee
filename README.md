@@ -1,15 +1,16 @@
-# **Title**
-**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 ---
 ## Objective 
 **Detect lane lines in images and videos captured by a camera mounted in front dash of a vehicle**
 ## Abstract
-In the emerging technology of self-driving cars, cars must know how to operate by themselves without the decision making and control inputs of a driver or operator. This involves an 'understanding' of the nascent world around them, particulary in regards to the guidelines and constraints that govern societal driving behaviour. 
-In this project, I used computer vision techniques to identify the trajectory of dashed lane lines on images/videos of traffic roads. 
+In the emerging technology of self-driving cars, cars must know how to operate by themselves without the decision making and control inputs of a driver or operator. This involves an 'understanding' of the nascent world around them, particulary in regards to the guidelines and constraints that govern civil societal driving behaviour. Each independent repository that begins with "CarND-" will investigate one component of the total self-driving car project. 
+
+In this project, computer vision techniques were used to identify the trajectory of dashed lane lines on images/videos of traffic roads. 
+
 The goals / steps of this project are the following:
 
 * Make a pipeline that finds lane lines on the road
-* Write reflections in a written report
+* Write down reflections in report
 
 **Methods Used**
 
