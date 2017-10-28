@@ -17,6 +17,7 @@ The goals / steps of this project are the following:
 ## Python Version/Packages/Libraries Used
 Python Version:
 - Python 3.5.1
+
 Libraries (included in environment.yml): 
 - Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
 - Matplotlib.image (Image loading, scaling, and display options)
