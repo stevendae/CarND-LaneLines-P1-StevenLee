@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Document reflections in report
 
-**Python Version/Packages/Libraries Used**
+## Python Version/Packages/Libraries Used
 Python Version: Python 3.5.1
 The following libraries (included in environment.yml) were used to achieve the goals of this project.
 - Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
@@ -22,7 +22,7 @@ The following libraries (included in environment.yml) were used to achieve the g
 - NumPy (processing data in the form of arrays)
 - OpenCV (computer vision applications)
 
-**Method/Process**
+## Method/Process
 The pipeline is first tested on static images then tested on videos of traffic roads. The test images are read in individually and processed to overlay the lane line markers over the same image. Image processing pipeline is as follows:
 
 - load in image (mpimg.imread)
