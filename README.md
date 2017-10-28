@@ -15,8 +15,9 @@ The goals / steps of this project are the following:
 * Document reflections in report
 
 ## Python Version/Packages/Libraries Used
-Python Version: Python 3.5.1
-The following libraries (included in environment.yml) were used to achieve the goals of this project.
+Python Version:
+- Python 3.5.1
+Libraries (included in environment.yml): 
 - Matplotlib.pyplot (MATLAB-like plotting framework for visualization)
 - Matplotlib.image (Image loading, scaling, and display options)
 - NumPy (processing data in the form of arrays)
